@@ -1,6 +1,6 @@
-# Máquina Psyco - Writeup
+# Máquina Psycho - Writeup
 
-La máquina Psyco es un entorno Docker que expone un servidor HTTP en el puerto 80 y un servicio SSH en el puerto 22. La imagen del servidor HTTP contiene datos ocultos protegidos con contraseña, que intentamos extraer usando herramientas de esteganografía como stegseek, sin éxito, incluso con el diccionario rockyou.
+La máquina Psycho es un entorno Docker que expone un servidor HTTP en el puerto 80 y un servicio SSH en el puerto 22. La imagen del servidor HTTP contiene datos ocultos protegidos con contraseña, que intentamos extraer usando herramientas de esteganografía como stegseek, sin éxito, incluso con el diccionario rockyou.
 
 El objetivo principal de esta máquina es explotar una vulnerabilidad **LFI (Local File Inclusion)** para acceder a archivos sensibles, y luego escalar privilegios mediante un script Python ejecutable con sudo.
 
