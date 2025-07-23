@@ -1,4 +1,4 @@
-# CTF Writeups by Lorena Trujillo
+# CTF Writeups by Mapache92
 
 ¡Bienvenid@! Este repositorio contiene mis writeups personales de máquinas CTF (Capture The Flag) resueltas durante mi formación en ciberseguridad ofensiva.
 
