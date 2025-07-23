@@ -108,9 +108,3 @@ el script llamaba a `/bin/bash -p`, dándonos una shell con permisos **root**.
 - El usuario **vaxei** se obtuvo usando la clave RSA privada filtrada y formateada.
 - La flag **root** se consiguió accediendo a la shell con permisos root tras la ejecución del script Python con sudo.
 
-## Lecciones aprendidas
-
-- La vulnerabilidad **LFI** es muy potente para obtener archivos sensibles, en especial claves privadas SSH.
-- Las claves privadas pueden requerir modificaciones para ser utilizables (formateo).
-- Siempre es importante revisar qué comandos se pueden ejecutar con sudo para encontrar vías de escalada.
-- Los scripts mal configurados que se pueden ejecutar con permisos elevados son un riesgo de seguridad grave.
