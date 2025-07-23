@@ -71,7 +71,12 @@ Y logramos acceso como el usuario **vaxei**.
 
 ## Escalada de privilegios con sudo
 
-Ya dentro, ejecutamos `sudo -l` para ver qué comandos podíamos ejecutar como sudo sin contraseña. El resultado nos indicó que podíamos ejecutar un shell como el usuario luisillo mediante:
+Ya dentro, ejecutamos `sudo -l` para ver qué comandos podíamos ejecutar como sudo sin contraseña. 
+
+<img width="1039" height="100" alt="Pasted image 20250619005332" src="https://github.com/user-attachments/assets/78a0f32b-8df5-4310-883b-51c60344d10f" />
+
+
+El resultado nos indicó que podíamos ejecutar un shell como el usuario luisillo mediante:
 
 ```bash
 sudo -u luisillo /usr/bin/perl -e 'exec "/bin/sh";'
@@ -94,6 +99,9 @@ sudo /usr/bin/python3 /opt/paw.py
 ```
 
 el script llamaba a `/bin/bash -p`, dándonos una shell con permisos **root**.
+
+<img width="587" height="270" alt="Pasted image 20250619012535" src="https://github.com/user-attachments/assets/6cd84d90-dca9-4c6d-bb0a-3221b4d0c88c" />
+
 
 ## Flags
 
